@@ -9,11 +9,11 @@ Limit the number of asynchronous concurrent tasks running.
 Assume you need to connect to many different WebSocket servers, or retrieve
 many resources concurrently at the same time. Any asynchronous operation can be
 started easily with JavaScript, but when too many of them could potentially be
-executed at the same time it's usually a good idea to limit their number in
-order to avoid resource consumption on the browser or the node instance.
+executed at the same time it's usually a good idea to limit their number to
+avoid resource consumption on the browser or the node instance.
 
-Limiting the number of concurrent asynchronous tasks running is exactly the
-goal of concurrency-limiter.
+Limiting the number of concurrent asynchronous tasks running is the goal of
+concurrency-limiter.
 
 ## Getting started
 
