@@ -1,4 +1,4 @@
-/* Copyright (C) 2018 Francesco Banconi */
+/* Copyright (C) 2018 Canonical Ltd. */
 
 'use strict';
 

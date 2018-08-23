@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/frankban/concurrency-limiter.svg?branch=master)](https://travis-ci.org/frankban/concurrency-limiter)
+[![Build Status](https://travis-ci.org/juju/concurrency-limiter.svg?branch=master)](https://travis-ci.org/juju/concurrency-limiter)
 
 # concurrency-limiter
 

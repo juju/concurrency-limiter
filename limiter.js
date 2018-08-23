@@ -1,4 +1,4 @@
-/* Copyright (C) 2018 Francesco Banconi */
+/* Copyright (C) 2018 Canonical Ltd. */
 
 /**
   This library provides the ability to limit the number of asynchronous
@@ -36,7 +36,7 @@ class Limiter {
       await limiter.enter();
       await wsConnect();
       ...
-      wsLogout();
+      wsClose();
       limiter.exit();
 
     @returns {Promise} A promise resolved when a slot is available.
