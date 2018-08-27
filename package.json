@@ -1,0 +1,31 @@
+{
+  "name": "concurrency-limiter",
+  "version": "0.1.0",
+  "description": "Limit the number of asynchronous concurrent tasks running",
+  "main": "limiter.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "tap test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juju/concurrency-limiter.git"
+  },
+  "keywords": [
+    "async",
+    "asynchronous",
+    "concurrency",
+    "limiter"
+  ],
+  "author": "Francesco Banconi <francesco.banconi@canonical.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juju/concurrency-limiter/issues"
+  },
+  "homepage": "https://github.com/juju/concurrency-limiter#readme",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "tap": "^12.0.1"
+  },
+  "dependencies": {}
+}
