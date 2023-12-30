@@ -93,3 +93,4 @@ class Limiter {
 
 
 module.exports = Limiter;
+module.exports['default'] = Limiter;
